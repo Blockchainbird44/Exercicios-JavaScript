@@ -1,0 +1,104 @@
+:root {
+	--primary-color: #FB0078;
+	--baixa: #06b64f;
+	--media: #d9ff00;
+	--alta: #eb2705;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	padding: 20px;
+	
+	background-color: #151617;
+	color: #e8e6e3;
+	color-scheme: dark !important;
+}
+
+form {
+	
+	background-color: #181a1b;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+	text-align: left;
+}
+
+input,
+select {
+	width: 100%;
+	padding: 10px 0 10px 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	border: 1px solid rgb(58, 62, 65);
+
+	border-radius: 5px;
+	font-size: large;
+}
+
+input{
+	width: 97%;
+}
+
+button {
+	background-color: #000;
+	color: white;
+	padding: 15px 25px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: medium;
+}
+
+button:hover {
+	background-color: var(--primary-color);
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+#resultado {
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.historico-transacoes {
+	background-color: #181a1b;
+	border: 1px solid var(--primary-color);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+li {
+	padding-bottom: 15px;
+	list-style: none;
+}
+
+b{
+	color: var(--primary-color);
+}
+
+.baixa{
+	color: var(--baixa);
+}
+
+.media{
+	color: var(--media);
+}
+
+.alta{
+	color: var(--alta);
+}
